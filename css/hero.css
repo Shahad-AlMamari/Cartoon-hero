@@ -1,9 +1,13 @@
+/*For fonts family we add more than one font in case the user did not have the first font the browser will display the other fonts */
 body{
     margin: 0;
     font-family: Helvetica, Arial, sans-serif;
     font-size: 20px;
     line-height: 30px;
 }
+/*Shortcut for padding
+padding: top right,left bottom;
+padding: 50px 0 50px; */
 header{
     background-color: #8F41B3;
     text-align: center;
@@ -15,13 +19,21 @@ h1, h2{
 }
 header h1{
     color: white;
-    font-size: 50px;
+    font-size: 70px;
 }
+/*Broder-radius make the edges of an element round the big element = big radius
+broder shortcut
+broder: width style color: */
 header img{
     border-radius: 170px;
     width: 300px;
     border: 20px solid #ffff;
 }
+/*To center the content without centering text we use max-width and margin
+max-width: 800px; is for the content width, we write it to prevent elements to streching outside the box. in our website these are images.
+margin: 0 auto; is for centering all box elements including images,
+that's why we wrote 0 for top,bottom and auto for right,left to center images. 
+*/
 main{
     max-width: 800PX;
     margin: 0 auto;
@@ -30,6 +42,7 @@ main{
 main img{
     max-width: 100%;
 }
+/*margin: top right,left bottom; */
 h2{
     font-size: 35px;
     color: #8F41B3;
@@ -54,6 +67,7 @@ footer p{
 footer a{
     color: white;
 }
+/*Opacity from 0 to 1, used for transparent level of an element 1 not transparent 0 transparent */
 footer a:hover{
     opacity: .5;
     background-color: transparent;
