@@ -1,24 +1,25 @@
 /*For fonts family we add more than one font in case the user did not have the first font the browser will display the other fonts */
 body{
     margin: 0;
-    font-family: Helvetica, Arial, sans-serif;
-    font-size: 20px;
-    line-height: 30px;
+    font-family: 'Playfair Display', serif;
+    font-size: 25px;
+    line-height: 33px;
+    background-color: #FEDEF0;
 }
 /*Shortcut for padding
 padding: top right,left bottom;
 padding: 50px 0 50px; */
 header{
-    background-color: #8F41B3;
+    background-color: #824686;
     text-align: center;
     padding-top: 50px;
     padding-bottom: 50px;
 }
 h1, h2{
-    font-family: 'Noto Serif JP',sans-serif;
+    font-family: 'Noto Serif TC',sans-serif;
 }
 header h1{
-    color: white;
+    color: #FEDEF0;
     font-size: 70px;
 }
 /*Broder-radius make the edges of an element round the big element = big radius
@@ -27,7 +28,7 @@ broder: width style color: */
 header img{
     border-radius: 170px;
     width: 300px;
-    border: 20px solid #ffff;
+    border: 20px solid #FEDEF0;
 }
 /*To center the content without centering text we use max-width and margin
 max-width: 800px; is for the content width, we write it to prevent elements to streching outside the box. in our website these are images.
@@ -44,28 +45,28 @@ main img{
 }
 /*margin: top right,left bottom; */
 h2{
-    font-size: 35px;
-    color: #8F41B3;
+    font-size: 50px;
+    color: #824686;
     margin: 40px 0 10px;
 }
 a{
-    color: #8F41B3;
+    color: #824686;
 }
 a:hover{
-    background-color: blue;
+    background-color: #c55ca4;
     color: white;
 }
 footer{
-    background-color: #8F41B3;
+    background-color: #824686;
     text-align: center;
-    color: white;
+    color: #FEDEF0;
     padding: 50px;
 }
 footer p{
     margin: 0;
 }
 footer a{
-    color: white;
+    color: #FEDEF0;
 }
 /*Opacity from 0 to 1, used for transparent level of an element 1 not transparent 0 transparent */
 footer a:hover{
@@ -76,4 +77,10 @@ p.caption{
     columns: #999999;
     font-style: italic;
     margin-top: 0;
+}
+li{
+    color: #824686;
+}
+main p{
+    color: #824686;
 }
