@@ -73,9 +73,10 @@ footer a:hover{
     background-color: transparent;
 }
 p.caption{
-    columns: #999999;
+    color: #7b3d80;
     font-style: italic;
     margin-top: 0;
+    font-size: 20px;
 }
 li{
     color: #824686;
@@ -91,4 +92,7 @@ a.Nona:hover{
 }
 a.Clavis:hover{
     background-color: rgb(93, 189, 93);
+}
+a:hover{
+    background-color: #824686;
 }
