@@ -96,3 +96,8 @@ a.Clavis:hover{
 a:hover{
     background-color: #824686;
 }
+img.shoes{
+    width: 500px;
+    display: block;
+    margin: 0 auto;
+}
