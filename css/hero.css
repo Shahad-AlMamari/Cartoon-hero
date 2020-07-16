@@ -96,6 +96,7 @@ a.Clavis:hover{
 a:hover{
     background-color: #824686;
 }
+/*We used display: block; and margin: 0 auto; to center the image */
 img.shoes{
     width: 500px;
     display: block;
